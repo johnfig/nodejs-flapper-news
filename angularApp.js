@@ -33,6 +33,7 @@ function($scope, posts){
 
     $scope.posts.push({title: $scope.title, upvotes: 0});
     $scope.title = '';
+    $scope.link = '';
   };
 
   $scope.incrementUpvotes = function(post) {
